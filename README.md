@@ -9,7 +9,7 @@ start daemon
 
 put value
 ```
-curl -X POST --data "value "localhost:1250/put?key=test&ttl=60"
+curl -X POST --data "value "localhost:1251/put?key=test&ttl=60"
 ```
 
 get value
