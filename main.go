@@ -111,6 +111,10 @@ func main() {
 			}
 			return nil
 		})
+		if v == nil {
+			http.NotFound(w, r)
+			return
+		}
 		w.Write(v)
 	})
 
